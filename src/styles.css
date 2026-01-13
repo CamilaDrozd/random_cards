@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+@import "primeng/resources/themes/lara-light-blue/theme.css"; 
+@import "primeng/resources/primeng.min.css";                  
+@import "primeicons/primeicons.css";                         
+
+:root {
+  --bg-color: #ddc3c3;
+  --card-color: #8d5f8c;
+  --dark-card-color: #6b3f69;
+  --light-card-color: #a376a2;
+  --black: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+app-root{
+  display: block;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+app-root.dark-mode{
+  --bg-color: #6b3f69;
+  --card-color: #ddc3c3;
+  --light: #ffffff;
+}

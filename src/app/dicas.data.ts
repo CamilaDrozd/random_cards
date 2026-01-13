@@ -1,0 +1,23 @@
+export const LISTA_DICAS = [
+  { id: 1, texto: "Não deixe para amanhã o que pode fazer hoje." },
+  { id: 2, texto: "Pequenos passos todos os dias levam a grandes destinos." },
+  { id: 3, texto: "A persistência é a vizinha do êxito." },
+  { id: 4, texto: "Beba água. Seu cérebro funciona melhor hidratado." },
+  { id: 5, texto: "Comente seu código pensando no 'eu' do futuro." },
+  { id: 6, texto: "Aprenda a ler a documentação antes de buscar no YouTube." },
+  { id: 7, texto: "O melhor debug é uma boa noite de sono." },
+  { id: 8, texto: "Feito é melhor que perfeito, mas não faça desleixado." },
+  { id: 9, texto: "Divida um problema grande em várias tarefas minúsculas." },
+  { id: 10, texto: "Não se compare com o palco dos outros, olhe para o seu bastidor." },
+  { id: 11, texto: "Use o console.log, mas não esqueça de removê-lo." },
+  { id: 12, texto: "A curiosidade é a ferramenta mais forte de um desenvolvedor." },
+  { id: 13, texto: "Faça pausas. A técnica Pomodoro pode te ajudar." },
+  { id: 14, texto: "Entender o 'porquê' é mais importante que decorar o 'como'." },
+  { id: 15, texto: "Seu primeiro código será ruim, e tudo bem. Melhore no próximo." },
+  { id: 16, texto: "Networking não é sobre quem você conhece, mas quem te conhece." },
+  { id: 17, texto: "Aprenda a dizer não para manter o foco no que importa." },
+  { id: 18, texto: "Escreva testes. Eles são o seu seguro de vida no código." },
+  { id: 19, texto: "Domine o básico (HTML/CSS/JS) antes de pular para frameworks." },
+  { id: 20, texto: "O Google é o seu melhor amigo, saiba fazer as perguntas certas." },
+  {id:21, texto: "Use as ferramentas de IA a seu favor"}
+];
