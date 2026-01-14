@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { LISTA_DICAS } from '../../dicas.data';
+import { ButtonModule } from 'primeng/button';
 
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [],
+  imports: [ButtonModule],
   templateUrl: './card.component.html',
   styleUrl: './card.component.css'
 })

@@ -2,5 +2,6 @@
   <h3 class="dica_numero">Dica #{{dicaSorteada.id}}</h3>
   <p class="texto_dica">{{dicaSorteada.texto}}</p>
 
-  <button class="btn-random" (click)="randomizarDica()">Randomizar</button>
+  <p-button
+  label="Randomizar" icon="pi pi-refresh" iconPos="bottom" [raised]="true" (onClick)="randomizarDica()"></p-button>
 </div>
