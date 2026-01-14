@@ -1,4 +1,17 @@
 .card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: var(--card-color);
-  border-radius: 5px;
+  border-radius: 15px;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  
+  width: 400px;
+  height: 200px;
+}
+p{
+  align-items: center;
 }
