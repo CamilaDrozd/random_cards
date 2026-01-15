@@ -1,7 +1,10 @@
 <div class="card-content">
-  <h3 class="dica_numero">Dica #{{dicaSorteada.id}}</h3>
-  <p class="texto_dica">{{dicaSorteada.texto}}</p>
+  <h3 class="dica_numero">Dica #{{ dicaSorteada.id }}</h3>
 
-  <p-button
-  label="Randomizar" icon="pi pi-refresh" iconPos="bottom" [raised]="true" (onClick)="randomizarDica()"></p-button>
+  <p class="texto_dica">{{ dicaSorteada.texto }}</p>
+
+  <button type="button" class="btn-random" (click)="randomizarDica()">
+    <i class="pi pi-refresh"></i>
+    <span>Nova Dica</span>
+  </button>
 </div>

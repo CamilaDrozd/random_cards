@@ -1,5 +1,21 @@
-app-card{
+:host {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh; /* Altura total da tela */
+  width: 100vw;
+  position: relative;
+}
+app-card{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch-btn{
+  position: absolute;
+  top: 25px;    
+  right: 40px;  
+  z-index: 10;  
 }

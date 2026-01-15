@@ -27,5 +27,5 @@ app-root{
 app-root.dark-mode{
   --bg-color: #6b3f69;
   --card-color: #ddc3c3;
-  --light: #ffffff;
+  --black: #ffffff;
 }

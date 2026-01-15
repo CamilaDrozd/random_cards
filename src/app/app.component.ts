@@ -15,7 +15,8 @@ export class AppComponent {
 
   @HostBinding('class.dark-mode') isDarkMode = false;
 
-  alterarTema() : void{
+  alterarTema() : boolean{
     this.isDarkMode = !this.isDarkMode;
+    return this.isDarkMode;
   }
 }

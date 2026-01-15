@@ -1,12 +1,13 @@
 <section class="switch-btn">
   <p-button
     class="btn-switch"
-    icon="pi pi-sun"
+    [icon]="isDarkMode ? 'pi pi-sun' : 'pi pi-moon'"
     [rounded]="true"
     [text]="true"
     [raised]="true" 
+    severity="help"
     (onClick)="alterarTema()"
   ></p-button>
+</section>
 
   <app-card></app-card>
-</section>
