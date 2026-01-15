@@ -1,6 +1,7 @@
 # RandomCards
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Pequeno programa que gera dicas aleatórias a cada clique, com botão de mudar modo claro para escuro.
 
 ## Development server
 
