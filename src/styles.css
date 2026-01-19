@@ -8,7 +8,7 @@
   --card-color: #8d5f8c;
   --dark-card-color: #6b3f69;
   --light-card-color: #a376a2;
-  --black: #000;
+  --btn-random-text-color: #000;
 }
 
 * {
@@ -27,5 +27,5 @@ app-root{
 app-root.dark-mode{
   --bg-color: #6b3f69;
   --card-color: #ddc3c3;
-  --black: #ffffff;
+  --btn-random-text-color: #ffffff;
 }
