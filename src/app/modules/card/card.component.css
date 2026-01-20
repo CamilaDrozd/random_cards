@@ -8,13 +8,17 @@
   gap: 20px;
   padding: 20px;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(99, 102, 241, 0.85) 0px 5px 15px;
   transition: transform 0.2s, background-color 0.2s;
   
   width: 400px;
   min-height: 200px;
 }
+h3{
+  color: var(--card-title);
+}
 p{
+  color: var(--card-text-color);
   text-align: center;
   margin: 0;
   font-weight: 430;
@@ -23,8 +27,8 @@ p{
   padding: 10px;
   border-radius: 10px;
   border: none;
-  background-color: var(--bg-color);
-  color: var(--black);
+  background-color: var(--btn-random-tip);
+  color: var(--btn-random-text-color);
 }
 .btn-random i{
   margin: 0 3px;

@@ -2,6 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
 Pequeno programa que gera dicas aleatórias a cada clique, com botão de mudar modo claro para escuro.
+Paleta de cores para o tema claro e escuro foram gerados pelo Stitch.AI da Google, para melhorar na harmonização visual, junto com o UI.
 
 ## Development server
 

@@ -4,10 +4,11 @@
 @import "primeicons/primeicons.css";                         
 
 :root {
-  --bg-color: #ddc3c3;
-  --card-color: #8d5f8c;
-  --dark-card-color: #6b3f69;
-  --light-card-color: #a376a2;
+  --bg-color: #d6dee5;
+  --card-color: #FFFFFF;
+  --card-title: #1E293B;
+  --card-text-color: #64748B;
+  --btn-random-tip: #6366F1;
   --btn-random-text-color: #000;
 }
 
@@ -25,7 +26,10 @@ app-root{
   background-color: var(--bg-color);
 }
 app-root.dark-mode{
-  --bg-color: #6b3f69;
-  --card-color: #ddc3c3;
+  --bg-color: #0F172A;
+  --card-color: #1E293B;
+  --card-title: #F8FAFC;
+  --card-text-color: #64748B;
+  --btn-random-tip:  #818CF8;
   --btn-random-text-color: #ffffff;
 }
